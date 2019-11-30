@@ -1,5 +1,51 @@
 body {
-    background-image: images> hotel-wallpaper.png
-    
-  }
+    background-image: url(../../images/hotel-wallpaper.png);
   
+    font-color: blue
+}
+
+
+
+div {
+  width: 960px
+}
+
+input[type=text] {
+  width: 75%;
+}
+
+input[name=email] {
+  width: 75%;
+}
+
+input[name=message] {
+  width: 75%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+input [type=submit] {
+  width: 25%;
+}
+
+.content {
+  min-height: calc(100vh - 70px);
+}
+
+.footer {
+  border-top: 8px solid #4aaaa5
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: gray
+  height: 50px;
+}
+
