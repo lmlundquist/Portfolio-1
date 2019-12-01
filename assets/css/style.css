@@ -1,13 +1,15 @@
 body {
-    background-image: url(../../images/hotel-wallpaper.png);
-  
-    font-color: blue
+    background-image: "assets/images/hotel-wallpaper.png"
+    font-color: blue;
+    width: 960px;
+    
 }
 
-
-
-div {
-  width: 960px
+.boxed {
+  border: 1px;
+  background-color: #4aaaa5;
+  width: 180px;
+  border-color: #cccccc;
 }
 
 input[type=text] {
@@ -45,7 +47,20 @@ input [type=submit] {
   width: 100%;
   color: white;
   text-align: center;
-  background-color: gray
+  background-color: gray;
   height: 50px;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  float: right;
+  position: fixed; 
+  top: 0;
+  width: 100%;
+
+}
+
+.header
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
