@@ -1,5 +1,6 @@
 body {
-    background-image: "assets/images/hotel-wallpaper.png"
+    background-image: url(../images/hotel-wallpaper/hotel-wallpaper.png);
+    background-size: cover;
     font-color: blue;
     width: 960px;
 }
@@ -66,9 +67,25 @@ ul {
   position: fixed; 
   top: 0;
   width: 100%;
+  display: inline-block;
+  right: 35px;
 
 }
 
 .header
   font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+img [class=personal-pic] {
+  width:25%;
+  height: 25%;
+}
+
+.body-box {
+  width: 300px;
+  border: 15px solid rgb(22, 22, 22);
+  padding: 50px;
+  margin: 20px; 
+  position: 960px;
+  background-color: white;
 }
